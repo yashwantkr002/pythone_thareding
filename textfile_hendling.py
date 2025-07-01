@@ -1,0 +1,11 @@
+f=open('student.text',mode='w')
+f.write('hello how are you yashwant \n')
+f.write("sony is my wife \n")
+f.write("sarita is going \n")
+f.write("no thanks")
+f.close()
+
+f=open('student.text',mode='r')
+data=f.read()
+print(data)
+f.close()
